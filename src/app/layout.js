@@ -10,7 +10,7 @@ export default function RootLayout({ children, session }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className="h-screen flex flex-col">
         <SessionProviders>
           <Header />
           {children}
